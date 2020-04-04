@@ -1,7 +1,8 @@
-package util;
+package zadaniaIprzyklady;
 
 import model.Country;
 import org.hibernate.Session;
+import util.HibernateUtil;
 
 public class przyklad2 {
     public static void main(String[] args) {

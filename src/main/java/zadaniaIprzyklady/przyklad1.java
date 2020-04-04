@@ -1,4 +1,4 @@
-package util;
+package zadaniaIprzyklady;
 
 import model.Country;
 import org.hibernate.Session;

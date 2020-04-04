@@ -6,12 +6,16 @@ import javax.persistence.*;
 
 @Entity
 @Data
-
-public class Category {
+public class Category implements ModelClass {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "CAT_ID")
+    private int id;
     @Column(name = "CAT_NAME")
-    private int quantity;
+    private String name;
 
+    public String toString(){
+        return ""+id;
+    }
 }
